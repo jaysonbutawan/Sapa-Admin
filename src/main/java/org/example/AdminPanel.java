@@ -9,11 +9,6 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-/**
- * AdminPanel - Main admin dashboard and management UI.
- * Refactored to use modular architecture with separated concerns.
- * Updated with UI monitoring and background threading to prevent freezing.
- */
 public class AdminPanel extends JFrame {
     // --- UI Components ---
     private JTabbedPane tabbedPane;
